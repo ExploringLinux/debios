@@ -1,0 +1,513 @@
+    1  ll
+    2  rm -Rf .git
+    3  git checkout -b feature/INTTAAL-11
+    4  git branch -D feature/INTTAAL-11
+    5  git checkout -b feature/INTTAAL-11
+    6  git pull
+    7  git pull -u origin master
+    8  git pull -u origin master --rebase
+    9  git pull origin master
+   10  git pull origin master --rebase
+   11  gs
+   12  git pull
+   13  git pull --set-upstream-to=origin/master feature/INTTAAL-11
+   14  gs
+   15  git add app/translations/
+   16  git add app/migrations/
+   17  git add app/src/Controller/
+   18  gs
+   19  git add app/src/DataTable/
+   20  gs
+   21  git add app/src/Entity/ app/src/Form/ app/src/Repository/
+   22  gs
+   23  git add app/templates/
+   24  gs
+   25  git commit -m "INTTAAL-11: INTTAAL-108: CRUD voor artikelen"
+   26  ll
+   27  ls -alh
+   28  git commit -m "INTTAAL-11: INTTAAL-108: CRUD voor artikelen"
+   29  ll
+   30  nano grumphp.yml
+   31  rm grumphp.yml
+   32  nano grumphp.yml
+   33  git commit -m "INTTAAL-11: INTTAAL-108: CRUD voor artikelen"
+   34  cat .php-cs-fixer.dist.php
+   35  git commit -m "INTTAAL-11: INTTAAL-108: CRUD voor artikelen"
+   36  /home/ndrost/.config/composer/vendor/bin/php-cs-fixer --allow-risky=no --config=.php-cs-fixer.dist.php --verbose fix app/
+   37  gs
+   38  git commit -m "INTTAAL-11: INTTAAL-108: CRUD voor artikelen"
+   39  git commit -m "INTTAAL-11: INTTAAL-108: CRUD voor artikelen" -n
+   40  gs
+   41  git push
+   42  git push -u origin feature/INTTAAL-11
+   43  git checkout master
+   44  git pull
+   45  git checkout -b feature/INTTAAL-95
+   46  git push -u origin feature/INTTAAL-95
+   47  docker-compose up -d
+   48  code . -n
+   49  docker-compose up -d
+   50  docker ps
+   51  chmod +x app/bin/console
+   52  app/vendor/bin/grumphp git:init
+   53  git status
+   54  docker-compose exec app sh
+   55  git checkout feature/INTTAAL-11
+   56  git pull
+   57  /opt/phpstorm/bin/phpstorm.sh
+   58  docker-compose exec app php bin/console doctrine:migrations:migrate
+   59  docker-compose exec app php bin/console database
+   60  docker-compose exec app php bin/console doctrine:database:drop
+   61  docker-compose exec app php bin/console doctrine:database:drop --force
+   62  docker-compose exec app php bin/console doctrine:database:create
+   63  docker-compose exec app php bin/console doctrine:migrations:migrate
+   64  docker-compose exec app php bin/console user:create
+   65  gs
+   66  git add app/migrations/ app/src/Controller/ app/src/Entity/ app/src/Form/ app/src/Repository/ app/templates/product/
+   67  gs
+   68  git commit -m "INTTAAL-11: INTTAAL-108: CRUD voor Boeken omgezet naar CRUD voor producten"
+   69  /opt/phpstorm/bin/phpstorm.sh
+   70  cd projects/inttaal
+   71  gs
+   72  git commit -m "INTTAAL-11: INTTAAL-108: CRUD voor Boeken omgezet naar CRUD voor producten" -n
+   73  git push
+   74  gs
+   75  git checkout master
+   76  git pull
+   77  git stash
+   78  git pull
+   79  git checkout feature/INTTAAL-10
+   80  git pull
+   81  git pull origin master --rebase
+   82  /opt/phpstorm/bin/phpstorm.sh
+   83  git add app/translations/
+   84  git rebase --continue
+   85  gs
+   86  git add app/translations/
+   87  gs
+   88  git rebase --continue
+   89  gs
+   90  git commit -m "INTTAAL-10: Changes after merge conflict"
+   91  git push
+   92  git pull
+   93  gs
+   94  git add app/translations/
+   95  git commit -m "INTTAAL-10: Changes after merge conflict"
+   96  gs
+   97  /opt/phpstorm/bin/phpstorm.sh
+   98  gs
+   99  git add app/translations/
+  100  git commit -m "INTTAAL-10: Changes after merge conflict"
+  101  gs
+  102  git push
+  103  git pull origin master --rebase
+  104  gs
+  105  /opt/phpstorm/bin/phpstorm.sh
+  106  gs
+  107  git add app/src/Entity/ app/src/Form/ app/src/Repository/ app/translations/
+  108  gs
+  109  git rebase --continue
+  110  gs
+  111  git add app/src/Entity/ app/src/Form/ app/src/Repository/ app/translations/
+  112  gs
+  113  git commit -m "INTTAAL-10: Changes after merge conflict"
+  114  gs
+  115  git add app/translations/
+  116  gs
+  117  git rebase --continue
+  118  gs
+  119  git push
+  120  git pull
+  121  git push
+  122  docker-compose exec app php bin/console doctrine:migrations:migrate
+  123  gs
+  124  git add app/src/Entity/ app/src/Controller/ app/templates/
+  125  gs
+  126  git add app/src/DataTable/
+  127  gs
+  128  git commit -m "INTTAAL-10: Changes after Code Review"
+  129  gs
+  130  git add app/src/DataTable/ app/src/Controller/
+  131  git commit -m "INTTAAL-10: Changes after Code Review"
+  132  git commit -m "INTTAAL-10: Changes after Code Review" -n
+  133  git push
+  134  git checkout master
+  135  git pull
+  136  git checkout -b feature/INTTAAL-10-bewerken-Vak-tekst-voor-na
+  137  git push -u origin feature/INTTAAL-10-bewerken-Vak-tekst-voor-na
+  138  git pull origin feature/INTTAAL-10 --rebase
+  139  git push -u origin feature/INTTAAL-10-bewerken-Vak-tekst-voor-na
+  140  /opt/phpstorm/bin/phpstorm.sh
+  141  docker-compose exec app php bin/console doctrine:migrations:
+  142  docker-compose exec app php bin/console doctrine:migrations:diff
+  143  /opt/phpstorm/bin/phpstorm.sh
+  144  docker-compose exec app php bin/console doctrine:migrations:migrate
+  145  gs
+  146  git add app/src/Entity/ app/src/Form/Booklist/ app/translations/ app/migrations/
+  147  gs
+  148  git commit -m "INTTAAL-10: Tekst voor en tekst na de naam van het vak"
+  149  git commit -m "INTTAAL-10: Tekst voor en tekst na de naam van het vak" -n
+  150  git push
+  151  gs
+  152  git add app/src/Form/
+  153  git commit -m "INTTAAL-10: Tekst voor en tekst na de naam van het vak" -n
+  154  git push
+  155  /opt/phpstorm/bin/phpstorm.sh
+  156  cd projects/inttaal
+  157  cd app
+  158  yarn install && yarn run watch
+  159  cd projects/inttaal
+  160  git checkout master
+  161  git pull
+  162  git checkout feature/INTTAAL-10-bewerken-Vak-tekst-voor-na
+  163  gs
+  164  git add app/migrations/ app/src/Entity/ app/src/Form/
+  165  gs
+  166  git commit -m "INTTAAL-10: Verwerking opmerkingen code-revieww"
+  167  git push
+  168  git pull origin master --rebase
+  169  git rebase --abort
+  170  gs
+  171  git push
+  172  git checkout master
+  173  git checkout -b feature/INTTAAL-11-bewerken-vak-overzicht-producten
+  174  git push -u origin feature/INTTAAL-11-bewerken-vak-overzicht-producten
+  175  rm branches.txt
+  176  git branch -v
+  177  git branch -v >> branches.txt
+  178  cat branches.txt
+  179  git branch -D feature/INTTAAL-10 feature/INTTAAL-11 feature/INTTAAL-10-bewerken-Vak-tekst-voor-na feature/INTTAAL-95
+  180  gs
+  181  git branch -v
+  182  git pull origin feature/INTTAAL-11 --rebase
+  183  git checkout master
+  184  git branch -D feature/INTTAAL-11-bewerken-vak-overzicht-producten
+  185  git checkout feature/INTTAAL-11-bewerken-vak-overzicht-producten
+  186  git pull
+  187  git pull origin feature/INTTAAL-11-bewerken-vak-overzicht-producten --rebase
+  188  git pull origin feature/INTTAAL-11 --rebase
+  189  git checkout master
+  190  git branch -D feature/INTTAAL-11-bewerken-vak-overzicht-producten
+  191  git checkout feature/INTTAAL-11-bewerken-vak-overzicht-producten
+  192  git pull origin feature/INTTAAL-10-bewerken-Vak-tekst-voor-na --rebase
+  193  git checkout master
+  194  git branch -D feature/INTTAAL-11-bewerken-vak-overzicht-producten
+  195  gs
+  196  git stash
+  197  git checkout master
+  198  git pull
+  199  git checkout feature/INTTAAL-11
+  200  git pull
+  201  git pull origin master --rebase
+  202  git push
+  203  git pull
+  204  git push
+  205  git checkout feature/INTTAAL-10
+  206  git pull origin master --rebase
+  207  /opt/phpstorm/bin/phpstorm.sh
+  208  gs
+  209  git add app/src/Entity/ app/src/Form/
+  210  gs
+  211  git rebase --continue
+  212  gs
+  213  git add app/src/Entity/
+  214  gs
+  215  git rebase --continue
+  216  gs
+  217  git add app/src/Form/ app/translations/
+  218  gs
+  219  git rebase --continue
+  220  /opt/phpstorm/bin/phpstorm.sh
+  221  gs
+  222  git add app/src/Form/ app/translations/
+  223  git rebase --continue
+  224  gs
+  225  git commit -m "INTTAAL-10: Changes after merge conflicts"
+  226  git push
+  227  git pull
+  228  git push
+  229  git checkout feature/INTTAAL-10-bewerken-Vak-tekst-voor-na
+  230  git pull
+  231  gs
+  232  git add app/src/Controller/ app/src/Entity/
+  233  gs
+  234  git push
+  235  gs
+  236  git commit -m "INTTAAL-10: Changes after code review"
+  237  git push
+  238  git checkout feature/INTTAAL-11
+  239  git pull
+  240  /opt/phpstorm/bin/phpstorm.sh
+  241  gs
+  242  git add app/translations/
+  243  git commit -m "INTTAAL-11: Verbetering Translations"
+  244  git push
+  245  git checkout master
+  246  git pull
+  247  git checkout -b feature/INTTAAL-114
+  248  git push -u origin feature/INTTAAL-114
+  249  git push
+  250  /opt/phpstorm/bin/phpstorm.sh
+  251  git pull origin feature/INTTAAL-11 --rebase
+  252  /opt/phpstorm/bin/phpstorm.sh
+  253  docker-compose exec app php bin/console doctrine:migrations:diff
+  254  /opt/phpstorm/bin/phpstorm.sh
+  255  docker-compose exec app php bin/console doctrine:migrations:migrate
+  256  gs
+  257  git add app/src/DataTable/ app/src/Entity/ app/src/Form/ app/translations/
+  258  gs
+  259  git add app/migrations/
+  260  gs
+  261  git commit -m "INTTAAL-114: Toevoegen kolom EAN Code op tabel producten"
+  262  git push
+  263  git checkout master
+  264  git pull
+  265  gs
+  266  git stash
+  267  git checkout feature/INTTAAL-11
+  268  git pull
+  269  git checkout feature/INTTAAL-114
+  270  git pull
+  271  git pull origin master --rebase
+  272  git push
+  273  git pull
+  274  git push
+  275  /opt/phpstorm/bin/phpstorm.sh
+  276  git checkout master
+  277  git pull
+  278  git checkout -b feature/INTTAAL-95
+  279  git pull
+  280  git pull origin master --rebase
+  281  docker-compose exec app php bin/console doctrine:migrations:diff
+  282  git pull origin master --rebase
+  283  gs
+  284  git add app/src/Entity/
+  285  gs
+  286  git commit -m "INTTAAL-95: Relaties leggen tussen vakken en producten"
+  287  git commit -m "INTTAAL-95: Relaties leggen tussen vakken en producten" -n
+  288  git push
+  289  git push -u origin feature/INTTAAL-95
+  290  git pull origin master --rebase
+  291  gs
+  292  rm branches.txt
+  293  git add .
+  294  git commit -m "INTTAAL-95: Relaties leggen tussen vakken en producten" -n
+  295  git push
+  296  git pull origin master --rebase
+  297  /opt/phpstorm/bin/phpstorm.sh
+  298  gs
+  299  git add app/src/Entity/
+  300  gs
+  301  git commit -m "INTTAAL-95: Changes after merge conflict"
+  302  git rebase --abort
+  303  git status
+  304  git pull origin master
+  305  git status
+  306  git push
+  307  /opt/phpstorm/bin/phpstorm.sh
+  308  gs
+  309  git add app/src/Entity/ app/src/Repository/
+  310  gs
+  311  git commit -m "INTTAAL-95: Voorbereidingen koppeling Vak / Product"
+  312  gs
+  313  git add app/src/Entity/
+  314  gsd
+  315  gs
+  316  git commit -m "INTTAAL-95: Voorbereidingen koppeling Vak / Product"
+  317  docker-compose exec app php bin/console doctrine:migrations:diff
+  318  /opt/phpstorm/bin/phpstorm.sh
+  319  docker-compose exec app php bin/console doctrine:migrations:migrate
+  320  docker-compose exec app php bin/console doctrine:
+  321  docker-compose exec app php bin/console doctrine:database:drop --force
+  322  docker-compose exec app php bin/console doctrine:database:create
+  323  docker-compose exec app php bin/console doctrine:migrations:migrate
+  324  docker-compose exec app php bin/console user:create
+  325  docker-compose exec app php bin/console doctrine:migrations:diff
+  326  /opt/phpstorm/bin/phpstorm.sh
+  327  docker-compose exec app php bin/console doctrine:migrations:migrate
+  328  git status
+  329  git add app/src/Controller/ app/src/Entity/ app/migrations/
+  330  gs
+  331  git commit -m "INTTAAL-95: Bij het updaten van een vak een lijst van producten (bij dat vak) tonen"
+  332  git rm app/src/DataTable/ProductTableType.php
+  333  git rm -f app/src/DataTable/ProductTableType.php
+  334  gs
+  335  git add app/src/Entity/
+  336  gs
+  337  git commit -m "INTTAAL-95: Bij het updaten van een vak een lijst van producten (bij dat vak) tonen"
+  338  gs
+  339  git add app/src/Entity/
+  340  git add app/src/Controller/
+  341  gs
+  342  git commit -m "INTTAAL-95: Bij het updaten van een vak een lijst van producten (bij dat vak) tonen"
+  343  git push
+  344  gs
+  345  git add app/src/Entity/
+  346  gs
+  347  git commit -m "INTTAAL-95: Bij het updaten van een vak een lijst van producten (bij dat vak) tonen"
+  348  git puish
+  349  git push
+  350  ;l
+  351  /opt/phpstorm/bin/phpstorm.sh
+  352  gs
+  353  git add app/migrations/ app/templates/ app/translations/
+  354  gs
+  355  git commit -m "INTTAAL-95: Bij het updaten van een vak een lijst van producten (bij dat vak) tonen"
+  356  git push
+  357  git checkout master
+  358  git pull
+  359  git checkout -b feature/INTTAAL-108
+  360  git push -u origin feature/INTTAAL-108
+  361  git push
+  362  git checkout feature/INTTAAL-95
+  363  git stash
+  364  git checkout feature/INTTAAL-95
+  365  git pull
+  366  gs
+  367  git add app/src/Controller/ app/templates/
+  368  gs
+  369  git commit -m "INTTAAL-95: Bij het updaten van een vak een lijst van producten (bij dat vak) tonen"
+  370  git push
+  371  gs
+  372  git add app/src/Controller/ app/src/Entity/
+  373  gs
+  374  git commit -m "INTTAAL-95: Bij het updaten van een vak een lijst van producten (bij dat vak) tonen"
+  375  git push
+  376  gs
+  377  git stash
+  378  /opt/phpstorm/bin/phpstorm.sh
+  379  git checkout feature/INTTAAL-114
+  380  git pull
+  381  gs
+  382  git add app/src/Entity/ app/src/Form/
+  383  gs
+  384  git commit -m "INTTAAL-114: Changes after code review"
+  385  git push
+  386  git checkout feature/INTTAAL-95
+  387  git pull
+  388  git pull origin master
+  389  /opt/phpstorm/bin/phpstorm.sh
+  390  cd projects/inttaal
+  391  gs
+  392  git add app/src/Controller/ app/src/DataTable/ app/src/Form/ app/translations/ app/templates/
+  393  gs
+  394  git commit -m "INTTAAL-95: Tussendoor commit: Het bijwerken van een product, behorende bij een vak"
+  395  git commit -m "INTTAAL-95: Tussendoor commit: Het bijwerken van een product, behorende bij een vak" -n\\n;
+  396  gs
+  397  git add app/src/
+  398  gs
+  399  git commit -m "INTTAAL-95: Tussendoor commit: Het bijwerken van een product, behorende bij een vak" -n
+  400  git push
+  401  exit
+  402  cd projects/inttaal
+  403  git pull origin master
+  404  /opt/phpstorm/bin/phpstorm.sh
+  405  gs
+  406  git commit -m "INTTAAL-95: merged in master"
+  407  gs
+  408  git add app/translations/
+  409  git commit -m "INTTAAL-95: merged in master"
+  410  git push
+  411  ll
+  412  cd projects
+  413  ll
+  414  rm -Rf platforminttaal
+  415  sudo rm -Rf platforminttaal
+  416  ll
+  417  cp -R inttaal intapi
+  418  cd intapi
+  419  git checkout master
+  420  git pull
+  421  git branch -v
+  422  rm -Rf .git
+  423  sudo nano /etc/hosts
+  424  cd ~/laradock
+  425  ll
+  426  cd sites
+  427  ll
+  428  nano intapi.conf
+  429  cd ..
+  430  cd projects/intapi
+  431  l
+  432  code . -n
+  433  cd ~/laradock/sites
+  434  ll
+  435  nano intapi.conf
+  436  docker-compose down -v
+  437  nano intapi.conf
+  438  y
+  439  nano intapi.conf
+  440  alias
+  441  cat ~/.docker_aliases
+  442  cd ~/projects/intapi
+  443  testme yarn install && yarn watch
+  444  testme cd app && yarn install && yarn watch
+  445  cd app
+  446  testme cd app && yarn install && yarn watch
+  447  testme yarn install && yarn watch
+  448  yarn install && yarn run watch
+  449  testme php bin/console doctrine
+  450  cd projects/intapi
+  451  php bin/console
+  452  testme php bin/console
+  453  cat ~/.docker_aliases
+  454  docker exec -it  --user=laradock $(docker ps -aqf "name=workspace") bash
+  455  cd ~/laradock
+  456  nano docker-compose.yml
+  457  nano /etc/hosts
+  458  nano dh.sh
+  459  chmod +x dh.sh
+  460  ./dh.sh
+  461  sudo nano /etc/hosts
+  462  docker ps
+  463  docker exec -it  --user=laradock $(docker ps -aqf "name=workspace") bash
+  464  docker-compose down -v
+  465  cd ~/laradock
+  466  dcdn
+  467  cd ~/laradock
+  468  docker-compose down -v
+  469  ll
+  470  ./startmeup.sh
+  471  docker exec -it  --user=laradock $(docker ps -aqf "name=workspace") bash
+  472  docker-compose down -v
+  473  cd ~/projects/intapi
+  474  docker-compose up -d
+  475  code . -n
+  476  docker-compose down -v
+  477  docker-compose up -d
+  478  docker-compose down -v
+  479  docker-compose up --build -d
+  480  nano docker-compose.yml
+  481  docker-compose down -v
+  482  docker-compose up --build -d
+  483  docker volume ls -qf dangling=true | xargs -r docker volume rm
+  484  docker rmi $(docker images --filter "dangling=true" -q --no-trunc)
+  485  docker images | grep "none"
+  486  docker rmi $(docker images | grep "none" | awk '/ / { print $3 }')
+  487  docker rm $(docker ps -qa --no-trunc --filter "status=exited")
+  488  docker system prune -a
+  489  exit
+  490  cd projects/intapi
+  491  cd app
+  492  composer require http-client maker phpunit
+  493  composer require http-client phpunit
+  494  docker ps
+  495  docker-compose up --build -d
+  496  php bin/phpunit tests/StockTest.php
+  497  docker ps
+  498  docker-compose down -v
+  499  docker ps
+  500  docker-compose up --build -d
+  501  docker-compose down -v
+  502  docker rm $(docker ps -qa --no-trunc --filter "status=exited")
+  503  docker rmi $(docker images | grep "none" | awk '/ / { print $3 }')
+  504  docker system prune -a
+  505  exit
+  506  cd ..
+  507  zip -e -r 1p.zip 1p
+  508  sudo apt install zip
+  509  zip -e -r 1p.zip 1p
+  510  cd 1p
+  511  ll
+  512  zip -e -r 1p.zip 1PasswordExport-KGZC7NHMURDZNBDSJDIZWINAAA-20220507-101815.csv
+  513  ll
